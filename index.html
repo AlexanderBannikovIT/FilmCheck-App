@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <p class="top__text">
+                список фильмов
+            </p>
+            <p class="top__text">
+                2023
+            </p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">Посмотреть</h1>
+            <div class="background__wrapper">
+                <div class="manipulation__panel">
+                    <input type="text" class="AddInput" id="AddInput-JS" placeholder="Добавить фильм"> 
+                    <button class="AddButton" id="AddButton-JS"><img class="button_img" src="./Vector.svg" alt=""></button>
+                </div>
+                <ul class="list__films" id="list__films-JS">          
+                </ul>
+            </div>
+        </div>
+    </main>
+<script src="./main.js"></script>
+</body>
+
+</html>
